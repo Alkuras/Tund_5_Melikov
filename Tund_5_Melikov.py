@@ -234,5 +234,16 @@ numbrid.insert(0,minn)
 print(numbrid)
 
 
-# #13
+# #14
+j=0
+pealinnad=["Tallinn","Riga","Berlin","Helsinki","Paris","Budapest","Stokholm","Oslo","Kopenhagen","Rome"]
+for e in pealinnad:
+    print(e)
+pealinnad.sort()
+for i in range(0,2,1):
+    pealinnad.append(input("Sisesta veel pealinna "))
+for e in pealinnad:
+    j+=1
+    print(j,".",e)
+print(f"Meje järjendis on {len(pealinnad)} Euroopa pealinna.")
 
